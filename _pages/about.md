@@ -1,49 +1,131 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven personal website
+<!-- I’m currently a Ph.D. student in Computer Science advised by [Prof. Jianbin Jiao](https://people.ucas.edu.cn/~jiaojianbin), at [Pattern Recognition and Intelligent System Development Laboratory](http://lamp.ucas.ac.cn/), [School of Emergency Management Science and Engineering, University of Chinese Academy of Sciences](https://emse.ucas.edu.cn/index.php/zh).  -->
+
+
+I'm currently a Ph.D. student advised by [Prof. Changsheng Xu](http://scholar.google.com.sg/citations?user=hI9NRDkAAAAJ&hl=zh-CN), at [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn). My research interest mainly focus on multimodality and general intelligence.
+
+***I'm always open to possible cooperation or visiting opportunities. If you are interested, please contact me by email.***
+
+
+Education
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+* 2022.9 - Present : Ph.D. in Pattern Recognition and Intelligent System, [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn), advised by [Prof. Changsheng Xu](http://scholar.google.com.sg/citations?user=hI9NRDkAAAAJ&hl=en).
+* 2019.9 - 2022.6 :  M.S. in Computer Science, [Institute of Automation, Chinese Academy of Sciences (CASIA)](http://english.ia.cas.cn), advised by [Prof. Weiming Dong](https://scholar.google.com/citations?user=WKGx4k8AAAAJ&hl=en)
+* 2015.9 - 2019.6 : B.E. in Aerospace Engineering, [Beijing Institute of Technology](https://english.bit.edu.cn), advised by [Prof. Zixuan Liang](https://scholar.google.com/citations?user=0Cc5DyMAAAAJ&hl=en).
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
+Experiences
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+* 2023.5 - Present : Research internship at [Peng Cheng Laboratory](http://www.ia.cas.cn/)
+* 2022.5 - 2023.3 : Research internship at [Tencent Youtu Lab](https://github.com/TencentYoutuResearch), supported by Tencent Rhino-Bird Research Elite Program
+* 2021.3 - 2021.9 : Research internship at [Tencent Youtu Lab](https://github.com/TencentYoutuResearch)
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Selected Publications
+======
 
-**Markdown generator**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Conferences
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+* **Libra: Building Decoupled Vision System on Large Language Models**<br>
+  **Yifan Xu**, Xiaoshan Yang, Yaguang Song, Changsheng Xu<br>
+  *ICML2024: [the Forty-first International Conference on Machine Learning](https://icml.cc)*<br>
+  [[arXiv](https://arxiv.org/pdf/2405.10140)] [[Code](https://github.com/YifanXu74/Libra)]
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+* **Multi-modal Queried Object Detection in the Wild**<br>
+  **Yifan Xu**, Mengdan Zhang, Chaoyou Fu, Peixian Chen, Xiaoshan Yang, Ke Li, Changsheng Xu<br>
+  *NeurIPS2023: [the Thirty-seventh Annual Conference on Neural Information Processing Systems](https://neurips.cc/Conferences/2023)*<br>
+  [[arXiv](https://arxiv.org/pdf/2305.18980)] [[Code](https://github.com/YifanXu74/MQ-Det)] [[Poster](https://neurips.cc/media/PosterPDFs/NeurIPS%202023/70811.png?t=1697201421.7118683)] [[Slides](https://yifanxu74.github.io/files/mqdet-slides.pdf)]
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+* **Evo-ViT: Slow-Fast Token Evolution for Dynamic Vision Transformer**<br>
+  **Yifan Xu**, Zhijie Zhang, Mengdan Zhang, Kekai Sheng, et al.<br>
+  *AAAI2022: [the 36th AAAI Conference on Artificial Intelligence](https://aaai.org/conference/aaai/aaai-22/)*<br>
+  [[arXiv](https://arxiv.org/pdf/2108.01390)] [[Code](https://github.com/YifanXu74/Evo-ViT)] [[Poster](https://yifanxu74.github.io/files/evo-vit-poster.pdf)] [[Slides](https://aaai-2022.virtualchair.net/poster_aaai1350)] [[Video](https://aaai-2022.virtualchair.net/poster_aaai1350)]
+
+
+* **Spike-driven Transformer V2: Meta Spiking Neural Network Architecture Inspiring the Design of Next-generation Neuromorphic Chips**<br>
+  Man Yao, JiaKui Hu, Tianxiang Hu, **Yifan Xu**, Zhaokun Zhou, Yonghong Tian, Bo XU, Guoqi Li<br>
+  *ICLR2024: [the Twelfth International Conference on Learning Representations](https://iclr.cc)*<br>
+  [[arXiv](https://arxiv.org/pdf/2404.03663)] [[Code](https://github.com/BICLab/Spike-Driven-Transformer-V2)]
+
+## Journals
+
+* **Transformers in Computational Visual Media: A Survey**<br>
+  **Yifan Xu**, Huapeng Wei, Mingxuan Lin, Yingying Deng, Kekai Sheng, Mengdan Zhang, et al.<br>
+  *CVMJ: [Computational Visual Media](https://link.springer.com/journal/41095)*<br>
+  [[Paper](https://link.springer.com/article/10.1007/s41095-021-0247-3)]
+
+* **Towards Corruption-Agnostic Robust Domain Adaptation**<br>
+  **Yifan Xu**, Kekai Sheng, Weiming Dong, Baoyuan Wu, Changsheng Xu, Bao-Gang Hu<br>
+  *TOMM: [ACM Transactions on Multimedia Computing, Communications, and Applications](https://dl.acm.org/journal/tomm)*<br>
+  [[arxiv](https://arxiv.org/pdf/2104.10376)]
+
+## Pre-prints
+
+* **Exploring Multi-Modal Contextual Knowledge for Open-Vocabulary Object Detection**<br>
+  **Yifan Xu**, Mengdan Zhang, Xiaoshan Yang, Changsheng Xu<br>
+  [[arxiv](https://arxiv.org/pdf/2104.10376)]
+
+
+Awards & Honors
+======
+
+* 2023 First Prize of the Pandeng Scholarship<br>
+  (攀登一等奖学金)
+* 2022 Second Prize of the Pandeng Scholarship<br>
+  (攀登二等奖学金)
+* 2023, 2023 Tencent Rhino-Bird Research Elite <br>
+  (腾讯犀牛鸟精英人才)
+* 2022, 2023 Merit Student of University of Chinese Academy of Sciences <br>
+  (中国科学院大学三好学生)
+* 2021 - 2024 Academic Scholarship of University of Chinese Academy of Sciences <br>
+  (中国科学院大学学业奖学金)
+* 2017 Space Application Scholarship <br>
+  (太空应用奖学金)
+* 2017 Second Prize in China Undergraduate Mathematical Contest in Modeling
+
+
+Invited Talks
+======
+* 2023.12.10 Invited talk "Multi-modal Queried Object Detection in the Wild" at [NeurIPS2023](https://neurips.cc/Conferences/2023)<br>
+* 2023.3.24 Invited talk "Some Thoughts on Vision-Language Models" at [Multimedia Computing Lab, CASIA](https://nlpr.ia.ac.cn/mmc/people.html)<br>
+* 2022.11.24 Invited talk "The Mathematical Theorem of Diffusion" at [Tencent Youtu Lab](https://open.youtu.qq.com/#/open)<br>
+* 2022.9.15 Invited talk "Advances in Weakly-supervised Object Detection" at [Tencent Youtu Lab](https://open.youtu.qq.com/#/open)<br>
+* 2022.2.24  Invited talk "Slow-Fast Token Evolution for Dynamic Vision Transformer" at [AAAI2022](https://aaai.org/conference/aaai/aaai-22/)<br>
+
+
+Domain Service
+======
+**Conference Reviewer**
+
+* CVPR 2024: [the IEEE/CVF Conference on Computer Vision and Pattern Recognition](https://cvpr.thecvf.com)
+* ECCV 2024: [the 18th European Conference on Computer Vision](https://eccv.ecva.net)
+* AAAI 2024: [the 38th Annual AAAI Conference on Artificial Intelligence](https://aaai.org/aaai-conference/)
+* AAAI 2023: [the 37th Annual AAAI Conference on Artificial Intelligence](https://aaai-23.aaai.org)
+
+**Journal Reviewer**
+* TPAMI: [IEEE Transactions on Pattern Analysis and Machine Intelligence](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
+* TIP: [IEEE Transactions on Image Processing](https://signalprocessingsociety.org/publications-resources/ieee-transactions-image-processing)
+* CVMJ: [Computational Visual Media](https://link.springer.com/journal/41095)
+
+Maintained Projects
+======
+* [Evo-ViT: Slow-Fast Token Evolution for Dynamic Vision Transformer](https://github.com/YifanXu74/Evo-ViT)  [![GitHub stars](https://img.shields.io/github/stars/YifanXu74/Evo-ViT)](https://github.com/YifanXu74/Evo-ViT/stargazers)
+* [Multi-modal Queried Object Detection in the Wild](https://github.com/YifanXu74/MQ-Det)  [![GitHub stars](https://img.shields.io/github/stars/YifanXu74/MQ-Det)](https://github.com/YifanXu74/MQ-Det/stargazers)
+* [Libra: Building Decoupled Vision System on Large Language Models](https://github.com/YifanXu74/Libra)  [![GitHub stars](https://img.shields.io/github/stars/YifanXu74/Libra)](https://github.com/YifanXu74/Libra/stargazers)
+* [Spike-driven Transformer V2: Meta Spiking Neural Network Architecture Inspiring the Design of Next-generation Neuromorphic Chips](https://github.com/BICLab/Spike-Driven-Transformer-V2)  [![GitHub stars](https://img.shields.io/github/stars/BICLab/Spike-Driven-Transformer-V2)](https://github.com/BICLab/Spike-Driven-Transformer-V2/stargazers)
+
+
+Contact
+======
+* Email: yifan.xu@nlpr.ia.ac.cn
