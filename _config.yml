@@ -34,7 +34,7 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=pbcoTgsAAAAJ"
   impactstory      : # URL
-  orcid            : 
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0003-2467-888X"
   semantic         : # URL
   pubmed           : 
   researchgate     : # URL
@@ -43,7 +43,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : https://github.com/YifanXu74
+  github           : "YifanXu74"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
