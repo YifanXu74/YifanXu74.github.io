@@ -128,4 +128,4 @@ Maintained Projects
 
 Contact
 ======
-* Email: yifan.xu@nlpr.ia.ac.cn
+* Email: <img src="images/emal.png" width="25%">
