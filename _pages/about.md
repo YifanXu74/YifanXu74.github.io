@@ -65,16 +65,16 @@ Selected Publications
   *CVMJ: [Computational Visual Media](https://link.springer.com/journal/41095)*<br>
   [[Paper](https://link.springer.com/article/10.1007/s41095-021-0247-3)]
 
+* **Exploring Multi-Modal Contextual Knowledge for Open-Vocabulary Object Detection**<br>
+  **Yifan Xu**, Mengdan Zhang, Xiaoshan Yang, Changsheng Xu<br>
+  *TIP: [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)*<br>
+  [[arxiv](https://arxiv.org/pdf/2104.10376)]
+
 * **Towards Corruption-Agnostic Robust Domain Adaptation**<br>
   **Yifan Xu**, Kekai Sheng, Weiming Dong, Baoyuan Wu, Changsheng Xu, Bao-Gang Hu<br>
   *TOMM: [ACM Transactions on Multimedia Computing, Communications, and Applications](https://dl.acm.org/journal/tomm)*<br>
   [[arxiv](https://arxiv.org/pdf/2104.10376)]
 
-## Pre-prints
-
-* **Exploring Multi-Modal Contextual Knowledge for Open-Vocabulary Object Detection**<br>
-  **Yifan Xu**, Mengdan Zhang, Xiaoshan Yang, Changsheng Xu<br>
-  [[arxiv](https://arxiv.org/pdf/2104.10376)]
 
 
 Awards & Honors
