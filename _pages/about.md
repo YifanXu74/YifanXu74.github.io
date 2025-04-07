@@ -68,7 +68,7 @@ Selected Publications
 * **Exploring Multi-Modal Contextual Knowledge for Open-Vocabulary Object Detection**<br>
   **Yifan Xu**, Mengdan Zhang, Xiaoshan Yang, Changsheng Xu<br>
   *TIP: [IEEE Transactions on Image Processing](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)*<br>
-  [[arxiv](https://arxiv.org/pdf/2104.10376)]
+  [[arxiv](https://arxiv.org/abs/2308.15846)]
 
 * **Towards Corruption-Agnostic Robust Domain Adaptation**<br>
   **Yifan Xu**, Kekai Sheng, Weiming Dong, Baoyuan Wu, Changsheng Xu, Bao-Gang Hu<br>
