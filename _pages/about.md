@@ -80,6 +80,8 @@ Selected Publications
 Awards & Honors
 ======
 
+* 2024 National Scholarship of China<br>
+  (博士研究生国家奖学金)
 * 2023 First Prize of the Pandeng Scholarship<br>
   (攀登一等奖学金)
 * 2022 Second Prize of the Pandeng Scholarship<br>
